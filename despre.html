@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title> Despre noi </title>
+	
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="dropdown.css">
+	<link rel="stylesheet" href="styling.css">
+	<link rel="stylesheet" media="screen and (max-width:700px)" href="phonescreen.css">
+	
+</head>
+<body>
+<div id="fb-root"></div>
+
+<header>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<div class="main">
+			<div class="logo">
+				<img src="imagini/logo10.png" class="logo">
+			</div>
+			<ul> 
+				<li> <a href="index.html"> Acasă </a></li>
+				<li class="pagina"> <a href="despre.html"> Despre noi </a></li>
+				<li> <div class="dropdown">
+						<button class="dropbtn"> Produse </button>
+						<div class="dropdown-content">
+							<a href="produse.html"> Produse disponibile </a>
+							<a href="comanda.html"> Cum comand? </a>
+						</div>
+					</div>	
+				</li>			
+				<li> <a href="contact.html"> Contact </a></li>
+			</ul>
+		</div>
+		
+		<div class="interior">
+			<center> <h3> Ferma datează încă din secolul al XIX-lea, când era amplasată la poalele Munților Retezat, în localitatea Râu de Mori, județul Hunedoara <br> <br> </h3>
+			<img class="imagine" src="imagini/Retezat.jpg"> 
+			<h5> <i> Imagine din 1950 cu străbunicii familiei la stâna din Retezat. </h5> </i>  <br> <br> <br>
+			
+			<br>
+			<h3> În prezent, suntem localizați în comuna Șag, județul Timiș. <br> Atașat avem o imagine satelitară cu ferma. </h5> 
+			<img class="imagine" src="imagini/ferma.jpg"> </center> <br>
+			<p align='center'>
+<a target='_blank' href='https://www.facebook.com/nicusor.iancu.33/'>
+<img src='https://www.matthewb.id.au/social/facebook.png' alt='Facebook'/></a>
+</p>
+			<h3> Galerie de poze din fermă </h3> <br>
+			<center> <img src="imagini/ferma1.jpg" name="imgs" class="imagine"> <BR> 
+			
+			<div class="button_cont" align="center">
+			<a class="neon" href="javascript:goback()"draggable="false">Imaginea precedentă</a>
+			<a class="neon" href="javascript:gonext()"draggable="false">Imaginea următoare</a>
+			</div>
+			<!--<button> <a href="javascript:goback()"> Imaginea precedentă </button> 
+				<button> <a href="javascript:gonext()"> Imaginea următoare </center> </button> -->
+			
+		</div>
+		
+	</header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="functions.js">
+ 
+</script>
+</body>
+</html>

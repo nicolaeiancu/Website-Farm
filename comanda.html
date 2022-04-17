@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title> Comanda </title>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="dropdown.css">
+	<link rel="stylesheet" href="styling.css">
+	<link rel="stylesheet" media="screen and (max-width:700px)" href="phonescreen.css">	
+
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="imagini/logo10.png" class="logo">
+			</div>
+			<ul> 
+				<li> <a href="index.html"> Acasă </a></li>
+				<li> <a href="despre.html"> Despre noi </a></li>
+				<li > <div class="dropdown">
+						<button class="pagina" class="dropbtn"> Produse </button>
+						<div class="dropdown-content">
+							<a href="produse.html"> Produse disponibile </a>
+							<a href="comanda.html"> Cum comand? </a>
+						</div>
+					</div>	
+				</li>			
+				<li> <a href="contact.html"> Contact </a></li>
+			</ul>
+		</div>
+		<div class="log">
+		
+<center> <h2 style="color:white;">Pentru a putea comanda produsele noastre trebuie să vă înregistrați apăsând butonul de mai jos!</h2> 
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="buttoni">Înregistrează-te!</button> </centeR>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/achizite.html">
+    <div class="container">
+      <h1>Înregistrare</h1>
+      <p>Vă rugăm să completați următoarele date!</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Introduceți Email" name="email" required>
+
+      <label for="psw"><b>Parolă</b></label>
+      <input type="password" placeholder="Introduceți Parola" name="psw" required>
+
+      <label for="psw-repeat"><b>Parolă</b></label>
+      <input type="password" placeholder="Repetați Parola" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Ține-mă minte.
+      </label>
+
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Anulează</button>
+		<a href="achizitie.html" class="btn btn-primary" 
+		style="background-color: #04AA6D;color: white;padding: 14px 20px;margin: 8px 0;border: none;cursor: pointer;width: 100%;opacity: 0.9;">
+		Finalizare înregistrare!</a>
+	
+      </div>
+    </div>
+  </form>
+</div>
+	</div>
+	</header>
+	<div>
+<script src="functions.js">
+
+</script>
+
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	setInterval(function(){ alert("Pentru orice problemă utilizați meniul de contact!"); }, 500000);
+</script>
+</body>
+</html>
+	
+	
+	
+	
+	

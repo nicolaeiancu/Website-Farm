@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title> Site EWD </title>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="dropdown.css">
+	<link rel="stylesheet" href="styling.css">
+	<link rel="stylesheet" media="screen and (max-width:700px)" href="phonescreen.css">
+	
+</head>
+<body>
+
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="imagini/logo10.png" class="logo">
+			</div>
+			<ul> 
+				<li class="pagina"> <a href="index.html"> Acasă </a></li>
+				<li> <a href="despre.html"> Despre noi </a></li>
+				<li class="dropdown">
+						<button class="dropbtn"> Produse </button>
+						<div class="dropdown-content">
+							<a href="produse.html"> Produse disponibile </a>
+							<a href="comanda.html"> Cum comand? </a>
+						</div>
+						
+				</li>			
+				<li> <a href="contact.html"> Contact </a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<h1> <center> FERMA IANCU  </h1>
+			<p>  <h3 id="test"> Produse tradiționale după rețete bine păstrate!</h3></p>
+			<br/> <br/>
+			<center><button onclick="myFunction()">Apasă-mă!</button> </center>
+		
+		</div>
+		
+		
+	</header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	setInterval(function(){ alert("Pentru orice problemă utilizați meniul de contact sau apelați-ne la 0740 000 000!"); }, 500000);
+</script>
+<script src="functions.js"></script>
+
+</body>
+</html>
+	
+	
+	
+	
+	
